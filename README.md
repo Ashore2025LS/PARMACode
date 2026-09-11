@@ -69,20 +69,13 @@ The demonstrations complement the 600-trial SO101 feasibility study reported in 
 ### Full Demonstration Video
 
 | PARMA on the SO101 Platform |
-| :---: |
-| 
-https://github.com/user-attachments/assets/a67fc544-5514-4ae0-a427-6009b753680d
-|
 | *Complete real-robot demonstration, including representative matched executions and failure cases.* |
 
-<!--
-After uploading the video to GitHub, replace the placeholder above with the
-GitHub-hosted video link.
 
-Example:
+https://github.com/user-attachments/assets/dce7e38b-70db-4a68-a5fc-cbf19135bf30
 
-https://github.com/user-attachments/assets/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
--->
+
+
 
 
 ## 🌱 Code Availability
