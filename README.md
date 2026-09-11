@@ -55,6 +55,36 @@ reflect the gripper's geometry and pose.
 *Figure 2. Center-distance constraints (left) and PARMA's pose-aware local
 proxy points (right).*
 
+## SO101 Real-Robot Demonstration
+
+We provide the complete real-robot demonstration of PARMA on the SO101 platform. 
+The video presents representative physical executions under challenging manipulation 
+scenarios and includes matched comparisons among nominal execution, center-point 
+correction, and PARMA. It provides a qualitative view of how the proposed pose-aware, 
+gripper-local correction reduces undesirable gripper--obstacle interactions while 
+preserving the task intent of the upstream VLA policy.
+
+The demonstrations complement the 600-trial SO101 feasibility study reported in the paper.
+
+### Full Demonstration Video
+
+| PARMA on the SO101 Platform |
+| :---: |
+| 
+https://github.com/user-attachments/assets/a67fc544-5514-4ae0-a427-6009b753680d
+|
+| *Complete real-robot demonstration, including representative matched executions and failure cases.* |
+
+<!--
+After uploading the video to GitHub, replace the placeholder above with the
+GitHub-hosted video link.
+
+Example:
+
+https://github.com/user-attachments/assets/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+-->
+
+
 ## 🌱 Code Availability
 
 **Code is coming soon.**
