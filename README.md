@@ -3,44 +3,39 @@
 # 🤖 PARMA
 
 [![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3734928-blue.svg)](https://doi.org/10.1109/LRA.2026.3734928)
+[![IEEE](https://img.shields.io/badge/Published_in-IEEE_RA--L-00629B.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)
+[![Status](https://img.shields.io/badge/Status-Code_Coming_Soon-orange.svg)]()
 
 **An Inference-Time, Pose-Aware Safety Layer for Vision-Language-Action Policies**
 
-*Code is coming soon.*
-
 </div>
 
-## Overview
+---
 
-PARMA is an inference-time, pose-aware safety layer for vision-language-action
-(VLA) robot policies. It receives nominal action chunks from a policy server,
-constructs local geometric safety constraints, filters the selected action,
-and executes the result in a LIBERO-compatible simulator.
+## 📖 Overview
 
-The framework connects policy prediction with geometric action correction.
-A frozen VLA policy proposes actions, while PARMA uses local scene geometry
-and pose-aware constraints to adjust the selected action before execution.
+> **PARMA** is an inference-time, pose-aware safety layer for vision-language-action (VLA) robot policies. 
 
-<p align="center">
-  <img src="Pictures/fig1.png" alt="PARMA framework: a frozen VLA policy produces nominal action chunks, which pass through scene modeling, proxy-point constraints, QP filtering, and adaptive execution." width="100%">
-</p>
+It receives nominal action chunks from a policy server, constructs local geometric safety constraints, filters the selected action, and executes the result in a LIBERO-compatible simulator. 
 
-*Figure 1. Overview of PARMA, from nominal VLA actions to pose-aware geometric
-constraints, risk-adaptive correction, and execution.*
+The framework seamlessly connects policy prediction with geometric action correction. While a frozen VLA policy proposes actions, PARMA utilizes local scene geometry and pose-aware constraints to dynamically adjust the selected action before execution.
 
-## Method Highlights
+<div align="center">
+  <img src="Pictures/fig1.png" alt="PARMA framework" width="90%">
+  <p><em>Figure 1. Overview of PARMA, from nominal VLA actions to pose-aware geometric constraints, risk-adaptive correction, and execution.</em></p>
+</div>
 
-- **Pose-aware geometry.** Local proxy points represent the gripper's spatial
-  extent and orientation for six-degree-of-freedom (6-DoF) action filtering.
-- **Geometric action filtering.** A control barrier function quadratic program
-  (CBF-QP) filters nominal actions using local safety constraints.
-- **Risk-adaptive correction.** Constraint selection, clipping, and blending
-  regulate the intervention applied to the nominal action.
+---
 
-Comparisons cover nominal policy execution, center-point QP, artificial
-potential fields (APF), ellipsoid CBF-QP, and proxy-APF methods.
-Object-aware, arm-aware, and feedback-triggered replanning extensions remain
-experimental.
+## ✨ Method Highlights
+
+*   📐 **Pose-Aware Geometry:** Local proxy points represent the gripper's spatial extent and orientation for six-degree-of-freedom (6-DoF) action filtering.
+*   🛡️ **Geometric Action Filtering:** A control barrier function quadratic program (CBF-QP) filters nominal actions using local safety constraints.
+*   ⚙️ **Risk-Adaptive Correction:** Constraint selection, clipping, and blending regulate the intervention applied to the nominal action.
+
+*(Comparisons cover nominal policy execution, center-point QP, artificial potential fields (APF), ellipsoid CBF-QP, and proxy-APF methods. Object-aware, arm-aware, and feedback-triggered replanning extensions remain experimental.)*
+
+---
 
 ## Pose-Aware Local Proxy Points
 
@@ -82,15 +77,13 @@ https://github.com/user-attachments/assets/dce7e38b-70db-4a68-a5fc-cbf19135bf30
 
 ## 🌱 Code Availability
 
-**Code is coming soon.**
+**🚧 Code is coming soon.**
 
-This repository currently presents the research overview and method
-illustrations. The implementation, installation guide, and usage instructions
-will be added in a future update.
+This repository currently presents the research overview and method illustrations. The complete implementation, installation guide, and usage instructions will be added in a future update.
 
+---
 
-
-## Citation
+## 📝 Citation
 
 If you find our work on PARMA helpful for your research, please consider citing our IEEE RA-L paper:
 
@@ -103,4 +96,3 @@ If you find our work on PARMA helpful for your research, please consider citing 
   doi={10.1109/LRA.2026.3734928},
   publisher={IEEE}
 }
-```
