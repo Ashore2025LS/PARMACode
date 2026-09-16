@@ -88,10 +88,6 @@ This repository currently presents the research overview and method
 illustrations. The implementation, installation guide, and usage instructions
 will be added in a future update.
 
-## Research Scope
-
-PARMA is intended for simulation-oriented research and does not provide a
-formal system-level safety guarantee.
 
 
 ## Citation
