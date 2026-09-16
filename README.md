@@ -3,7 +3,7 @@
 # 🤖 PARMA
 
 [![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3734928-blue.svg)](https://doi.org/10.1109/LRA.2026.3734928)
-[![IEEE](https://img.shields.io/badge/Published_in-IEEE_RA--L-00629B.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)
+[![IEEE](https://img.shields.io/badge/Accepted_by-IEEE_RA--L-00629B.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369)
 [![Status](https://img.shields.io/badge/Status-Code_Coming_Soon-orange.svg)]()
 
 **An Inference-Time, Pose-Aware Safety Layer for Vision-Language-Action Policies**
