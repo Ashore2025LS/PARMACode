@@ -2,6 +2,8 @@
 
 # 🤖 PARMA
 
+[![DOI](https://img.shields.io/badge/DOI-10.1109/LRA.2026.3734928-blue.svg)](https://doi.org/10.1109/LRA.2026.3734928)
+
 **An Inference-Time, Pose-Aware Safety Layer for Vision-Language-Action Policies**
 
 *Code is coming soon.*
@@ -90,3 +92,19 @@ will be added in a future update.
 
 PARMA is intended for simulation-oriented research and does not provide a
 formal system-level safety guarantee.
+
+
+## Citation
+
+If you find our work on PARMA helpful for your research, please consider citing our IEEE RA-L paper:
+
+```bibtex
+@article{li2026parma,
+  title={PARMA: A Pose-Aware Risk Mitigation Approach for End-Effector Execution in Vision-Language-Action Models},
+  author={Shuo Li and Jialiang Fu and Nianwen Ning and Le Fu and Lei Shi and Zhou Yi},
+  journal={IEEE Robotics and Automation Letters},
+  year={2026},
+  doi={10.1109/LRA.2026.3734928},
+  publisher={IEEE}
+}
+```
